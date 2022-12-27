@@ -273,8 +273,9 @@ header nav ul li:last-of-type a{
     display: inline-flex;
     align-items: center;
 }
-.what_we_do .d_flex_container article .description a:before{
+.what_we_do .d_flex_container article .description a:before {
     padding-right: 6px;
     width: 32px;
     height: 32px;
     content: url("../images/btn_dot.svg");
+}
