@@ -317,10 +317,11 @@ header nav ul li:last-of-type a{
 
 footer{
     background: #000000;
-    padding: 100px;
+    padding: 100px 0;
 }
 .footer_box{
     max-width: 1168px;
+    margin: auto;
 }
 .footer_first{
     display: flex;
@@ -340,7 +341,7 @@ footer{
 .second_col{
     display: flex;
     column-gap: 55px;
-    padding-right: 102px;
+    justify-content: flex-end;
 }
 .second_col ul{
     list-style: none;
