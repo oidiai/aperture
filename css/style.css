@@ -239,7 +239,7 @@ header nav ul li:last-of-type a{
     box-sizing: border-box;
 }
 .what_we_do .d_flex_container article .description h4{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -250,7 +250,7 @@ header nav ul li:last-of-type a{
     margin-bottom: 15px;
 }
 .what_we_do .d_flex_container article .description p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -278,4 +278,163 @@ header nav ul li:last-of-type a{
     width: 32px;
     height: 32px;
     content: url("../images/btn_dot.svg");
+}
+
+
+
+.photo_section{
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.photo_section h3{
+    font: 400 14px/20px 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.photo_section p{
+    font: 400 14px/20px 'Poppins', sans-serif;
+    color: #C0C0C0;
+}
+.sunset_at_mount_fuji{
+    background-image: url("../images/pic1.jpg");
+    padding-right: 62px;
+}
+.monstera_leafs{
+    background-image: url("../images/pic2.jpg");
+    padding-right: 87px;
+}
+.star_fall_in_the_himalayas{
+    background-image: url("../images/pic3.jpg");
+    padding-right: 106px;
+}
+
+
+
+footer{
+    background: #000000;
+    padding: 100px;
+}
+.footer_box{
+    max-width: 1168px;
+}
+.footer_first{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px #FFF;
+    padding-bottom: 36px;
+}
+.first_col{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.first_col p{
+    font: 400 13px/20px 'Poppins', sans-serif;
+    color: #C0C0C0;
+}
+.second_col{
+    display: flex;
+    column-gap: 55px;
+    padding-right: 102px;
+}
+.second_col ul{
+    list-style: none;
+}
+.second_col ul li{
+    padding-bottom: 10px
+}
+.second_col ul li:last-child{
+    padding-bottom: 0;
+}
+.second_col ul li a{
+    font: 400 14px/20px 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.second_col ul li:first-child a{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    cursor: default;
+}
+.footer_second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 2px #FFF;
+    padding: 36px 0;
+}
+.footer_second div{
+    padding-right: 36px;
+}
+.footer_second h4{
+    font: 400 14px/20px 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.footer_second h5{
+    font: 400 13px/20px 'Poppins', sans-serif;
+    color: #C0C0C0;
+}
+.footer_second form{
+    height: 52px;
+    max-width: 458px;
+    background: #F9FAFB;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6px;
+    flex-grow: 1;
+}
+.footer_second form input{
+    font: 400 16px/20px 'Poppins', sans-serif;
+    color: #000;
+    width: 80%;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+}
+.footer_second form label{
+    display: none;
+}
+.footer_second form small{
+    display: none;
+}
+.footer_second button{
+    width: 15%;
+    height: 60%;
+    background-color: #000000;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.footer_third{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+.footer_third p{
+    font: 400 14px/20px 'Poppins', sans-serif;
+    color: #C0C0C0;
+}
+.footer_third ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.footer_third img{
+    height: 24px;
+    width: auto;
 }
