@@ -64,6 +64,7 @@ header nav ul li:last-of-type a{
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main_banner .container{
     max-width: 580px;
@@ -289,6 +290,7 @@ header nav ul li:last-of-type a{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    position: relative;
 }
 .photo_section h3{
     font: 400 14px/20px 'Poppins', sans-serif;
@@ -438,4 +440,96 @@ footer{
 .footer_third img{
     height: 24px;
     width: auto;
+}
+.position_items{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    display: flex;
+    list-style: none;
+}
+.position_items li{
+    font: 400 12px/12px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+.position_items li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+.position_items li:nth-child(2):before{
+    background-image: url("../images/icon2.svg");
+}
+.position_items li:nth-child(3):before{
+    width: 32px;
+    background-image: url("../images/icon3.svg");
+}
+.position_items li:nth-child(4):before{
+    width: 10px;
+    background-image: url("../images/icon4.svg");
+}
+.the_gear_cage{
+    background-color: #000;
+    min-height: 540px;
+    position: relative;
+}
+.tools_container{
+    max-width: 1240px;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.tools_container .information{
+    max-width: 514px;
+}
+.information h4{
+    font: 400 12px/20px 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.information h3{
+    font: 400 28px/32px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.information p{
+    font: 400 14px/20px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.information a{
+    font: 400 16px/20px 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 0.4px;
+    background: #FFF;
+    color: #000;
+    text-decoration: none;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+    display: inline-flex;
+    align-items: center;
+}
+.information a:before{
+    padding-right: 6px;
+    width: 32px;
+    height: 32px;
+    content: url("../images/btn_dot.svg");
+}
+.the_gear_cage .banner_we_use{
+    background-size: cover;
+    position: absolute;
+    background-image: url("../images/we_use.jpg");
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
 }
