@@ -109,6 +109,40 @@ header nav ul li:last-of-type a{
     background-color: #000;
     padding-bottom: 100px;
     padding-top: 120px;
+    text-align: center;
+}
+.past_clients a{
+    max-width: 128px;
+    display: inline-block;
+}
+.past_clients .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.past_clients .owl-nav .owl-prev{
+    position: absolute;
+    left: -50px;
+    top: 58px;
+}
+.past_clients .owl-nav .owl-prev:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    display: inline-block;
+}
+.past_clients .owl-nav .owl-next{
+    position: absolute;
+    right: -50px;
+    top: 58px;
+}
+.past_clients .owl-nav .owl-next:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f053";
+    color: #FFFFFF;
+    display: inline-block;
+    rotate: 180deg;
 }
 .past_clients .container{
     max-width: 1200px;
@@ -138,7 +172,7 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 46px;
+    padding: 40px 0;
 }
 
 /*help*/

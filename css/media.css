@@ -40,7 +40,7 @@
     .past_clients .clients_logos{
         flex-wrap: wrap;
         justify-content: center;
-        gap: 40px;
+        padding: 0;
     }}
 
 @media only screen and (max-width: 770px){
