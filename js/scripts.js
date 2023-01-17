@@ -17,4 +17,23 @@ $(document).ready(function(){
             }
         }
     });
+
+    $( function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "fade",
+                duration: 400
+            },
+            hide: {
+                effect: "fade",
+                duration: 400
+            }
+        });
+
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
+
 });
