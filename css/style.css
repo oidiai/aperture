@@ -3,9 +3,11 @@
     margin: 0;
 }
 a{
-    font-size: 0;
+    font-size: 25px;
 }
-
+.logo{
+    z-index: 99;
+}
 header{
     background-color: #181818;
     padding: 24px 0;
@@ -613,4 +615,10 @@ footer{
 .ui-icon-closethick{
     background-image: none;
     background-position-x: 55px;
+}
+.past_clients .owl-nav .owl-prev{
+    left: 0;
+}
+.past_clients .owl-nav .owl-next{
+    right: 0;
 }
